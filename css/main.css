@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    
+}
+
+body{
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-family: "Red Hat Display", arial;
+}
+
+h1{
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+p{
+    margin: 15px 0;
+}
+
+a{
+    margin-left: 40px ;
+}
+
+.cancel_a{
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+strong{
+    color: black;
+    font-weight: 800;
+}
+
+.card{
+    background-color: white;
+    width:20%;
+    border-radius: 15px;
+}
+
+.card_down{
+    text-align: center;
+    padding: 16px;
+}
+
+button{
+    color: white;
+    margin: 20px 0;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 55px;
+    border: 0;
+    border-radius: 5px;
+    background-color: hsl(245, 75%, 52%);
+}
+
+.principal_img{
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.note_img{
+    margin-right: 10px;
+    width: 30px;
+}
+
+.abbonamento{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 30px 15px 20px 15px;
+}
+
+
+
+
